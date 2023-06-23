@@ -1,0 +1,90 @@
+Constructors 
+
+setters and getters are used but are very tedious if you need to use it again and again. So the method we use is called a constructor 
+
+Car car = new Car('Ford', 'Mustang', 'Red', 'Petrol);
+- you have to define the constructor under the class 
+- here we define: 
+    public Car(String make, String model, String color, String fuelType){
+        This.make = make; 
+        This.model = model; 
+        This.color = color; 
+        This.fuelType = fuelType;
+    }
+
+
+
+Constructor
+
+In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory. It is a special type of method which is used to initialize the object. Every time an object is created using the new() keyword, at least one constructor is called.
+
+Example of Constructors:
+
+// Create a Main class
+public class Main {
+  int x;  // Create a class attribute
+
+  // Create a class constructor for the Main class
+  public Main() {
+    x = 5;  // Set the initial value for the class attribute x
+  }
+
+  public static void main(String[] args) {
+    Main myObj = new Main(); // Create an object of class Main (This will call the constructor)
+    System.out.println(myObj.x); // Print the value of x
+  }
+}
+Types of Constructors:
+
+
+
+Default Constructor in Java
+
+It is not always necessary to provide a constructor implementation in the class code. If we don’t provide a constructor, then Java provides a default constructor implementation that we can use. Let’s look at a simple program where the default constructor is used, since we won’t explicitly define the constructor.
+
+package com.journaldev.constructor;
+
+public class Data {
+
+	public static void main(String[] args) {
+		Data d = new Data();
+	}
+}No-Args Constructor
+A constructor without any argument is called a no-argument constructor. It’s like overriding the default constructor and used to do some things before initialization like checking resources, network connections, logging, etc. Let’s take a quick look at the no-args constructor in Java.
+
+package com.journaldev.constructor;
+
+public class Data {
+        //no-args constructor
+	public Data() {
+		System.out.println("No-Args Constructor");
+	}
+	public static void main(String[] args) {
+		Data d = new Data();
+	}
+}
+Parameterized Constructor
+
+A constructor with arguments is called a parameterized constructor. Let’s look at an example of a parameterized constructor in Java
+
+package com.journaldev.constructor;
+
+public class Data {
+
+	private String name;
+
+	public Data(String n) {
+		System.out.println("Parameterized Constructor");
+		this.name = n;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public static void main(String[] args) {
+		Data d = new Data("Java");
+		System.out.println(d.getName());
+	}
+
+}
