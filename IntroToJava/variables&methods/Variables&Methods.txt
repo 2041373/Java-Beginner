@@ -1,0 +1,13 @@
+Variables and Methods 
+
+Variables 
+    What is a variable? 
+       - a date container that saves the data you wish to use in your code 
+       - a variable in code has the same defintion of a variable in real life, something that has value but is changeable 
+
+Method 
+    What is a method? 
+        - a method is a way of doing something 
+        - In code, a method is a way to streamline a repeated process 
+            - for e.g if i was to have a few instances of multiplication in my code, rather than writing the code for mulitplication every time i need to, i can just create a method like this mulitply(int x, int y) and within that method, have a multiplication of x and y 
+
