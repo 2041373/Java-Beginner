@@ -1,0 +1,35 @@
+For Loop:
+
+When we know the exact amount of repetition of our code in loop we use For loop instead of any other loop.
+
+syntax
+
+for(initialization of variable; condition; increment/decrement){ 
+
+//statements to be repeated
+
+}
+
+
+
+Example:
+
+// Program to print a text 5 times
+
+class Main {
+public static void main(String[] args) {
+
+int x = 5;
+// for loop 
+for (int i = 1; i <= x; ++i) {
+System.out.println("Practice Java");
+}
+}
+}
+Output:
+
+Practice Java
+Practice Java
+Practice Java
+Practice Java
+Practice Java
