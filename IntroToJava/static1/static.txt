@@ -1,0 +1,20 @@
+Static 
+
+1. What are static keywords.
+
+2. Basic concept of static keywords in Java.
+
+3. How to use Static keywords.
+
+4. Why do we use static keywords.
+
+What are static keywords?
+
+The static keyword is a non-access modifier used for methods and attributes. Static methods/attributes can be accessed without creating a class object.
+
+Why we use Static keywords:
+
+There are many reserved keywords in Java that cannot be used as variable names or identifiers. One such frequently used keyword in Java is the “Static” keyword. The most important reason why the static keyword is heavily used in Java is for efficient memory management. In general, if you want to access variables or methods inside a class, you must first create an instance or object of that class. However, there may be situations where you only want access to a few methods or variables of a class and you don’t want to create a new instance of that class just to access those members. Here you can use static keyword in java.
+
+Static 
+- static belongs to the class not the instance 
