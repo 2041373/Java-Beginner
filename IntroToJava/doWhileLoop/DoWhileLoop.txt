@@ -1,0 +1,37 @@
+Do-While Loop:
+
+It is the same as a While loop but it executes the code first and then checks the condition. It will execute code at least once if the condition is false.
+
+Syntax:
+
+do{
+
+//statements to be repeated
+
+}while(condition);
+
+
+Example:
+
+public class DoWhileExample {
+public static void main(String[] args) {
+   int i=1;
+   do{
+       System.out.println(i);
+       i++;
+       }while(i<=10);
+     }
+}    
+
+Output:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
