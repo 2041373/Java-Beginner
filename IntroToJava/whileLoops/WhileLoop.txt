@@ -1,0 +1,26 @@
+While loop:
+
+We use while loop when we want to execute a particular code again until the condition is true. It is also used to make an infinite loop that will terminate under a  scenario or a condition inside the loop .
+
+syntax:
+
+syntax
+while(condition){
+
+//statements to be repeated
+
+}
+Example:
+
+class WhileExample {
+     public static void main(String args[]){
+          int i=5;          
+while(i>1){          
+     System.out.println(i);    
+           i--;    
+      }    
+ }
+ }
+Output:
+
+5 4 3 2
