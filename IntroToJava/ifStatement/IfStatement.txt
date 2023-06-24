@@ -1,0 +1,22 @@
+if statement 
+
+1. Basic Concept of If Statement.
+
+2. How to make condition in java program.
+
+3. Demo (How to use if statement in java).
+
+If-Statement in Java
+
+Use if to specify a block of code to execute if the specified condition is true. Use else to specify the block of code to execute if the same condition is false. Use else if to specify a new condition to test if the first condition is false. Use the switch to specify many alternative blocks of code to execute.
+
+Syntax
+
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+
